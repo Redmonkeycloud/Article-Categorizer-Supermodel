@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Step 1: Collect the data.
-data = pd.read_csv('/content/training_data.csv')
+data = pd.read_csv('training_data.csv')
 data['category'].unique()
 label_encoder = preprocessing.LabelEncoder()
 label_encoder.fit(data['category'])
