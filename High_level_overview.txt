@@ -1,0 +1,40 @@
+This diagram shows the main steps of the script, starting with the input data (articles), followed by data preprocessing, machine learning algorithms, and a voting classifier that combines the predictions of the three classifiers (Naive Bayes, SVM, and Random Forest) to make the final prediction of the article's category. The predicted categories are the output of the script.
+
++-----------------------+
+|                       |
+|  Input Data (Articles)|              
+|                       |
++-----------+-----------+
+            |
+            |
+            v
++-----------+-----------+
+|                       |
+|    Data Preprocessing |              
+|                       |
++-----------+-----------+
+            |
+            |
+            v
++-----------+-----------+
+|                       |
+|     Machine Learning  |              
+|       Algorithms      |
+|                       |
++-----------+-----------+
+            |
+            |
+            v
++-----------+-----------+
+|                       |
+|  Voting Classifier    |              
+|                       |
++-----------+-----------+
+            |
+            |
+            v
++-----------+-----------+
+|                       |
+|  Predicted Categories |              
+|                       |
++-----------------------+
