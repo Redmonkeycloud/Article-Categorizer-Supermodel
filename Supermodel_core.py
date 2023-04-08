@@ -18,10 +18,9 @@ vectorizer = TfidfVectorizer(stop_words='english', max_features=1000)
 # Step 2: Preprocess the data.
 X = data['body']
 y = data['label']
-
 vectorized_x = vectorizer.fit_transform(X)
 
-# Step 2: Initialize machine learning models.
+# Step 3: Initialize machine learning models.
 nb = MultinomialNB()
 svm = SVC(kernel='linear', probability=True)
 rf = RandomForestClassifier()
